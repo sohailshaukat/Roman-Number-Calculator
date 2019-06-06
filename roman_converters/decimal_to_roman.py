@@ -1,3 +1,9 @@
+'''
+Arguments: int(decimal)
+Output: str(roman)
+-sohailshaukat ( https://github.com/sohailshaukat )
+-sohail47k@gmail.com
+'''
 def dtor_converter(num):
     num_arr = [i for i in str(num)]
     num_arr = num_arr[::-1]
@@ -17,7 +23,7 @@ def dtor_converter(num):
             deca = 'M'
         elif i == 3:
             unit = 'M'
-            
+
         if el == '1':
             roman_arr.append(unit)
         elif el == '2':

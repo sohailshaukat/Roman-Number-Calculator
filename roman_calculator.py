@@ -1,3 +1,10 @@
+'''
+Arguments: str(roman numeral A), str(operator), str(roman numeral B)
+Output: str(Solution to the expression in Roman)
+-sohailshaukat ( https://github.com/sohailshaukat )
+-sohail47k@gmail.com
+'''
+
 from roman_converters import , decimal_to_roman
 
 def calculator(num1 ,num2, op):
@@ -25,7 +32,7 @@ if __name__ == "__main__":
     result_decimal = calculator(num1, num2, operation)
     result_roman = decimal_to_roman.dtor_converter(result_decimal)
     print(result_roman)
-    
+
 
 # def rtod_converter(roman):
 #     roman_arr = [c for c in roman]
@@ -74,7 +81,7 @@ if __name__ == "__main__":
 #             deca = 'M'
 #         elif i == 4:
 #             unit = 'M'
-            
+
 #         if el == '1':
 #             roman_arr.append(unit)
 #         elif el == '2':
@@ -95,4 +102,3 @@ if __name__ == "__main__":
 #             roman_arr.append(deca+unit)
 #         roman = ''.join(roman_arr)
 #     return(roman[::-1])
-        

@@ -1,3 +1,9 @@
+'''
+Arguments: str(roman)
+Output: int(decimal)
+-sohailshaukat ( https://github.com/sohailshaukat )
+-sohail47k@gmail.com
+'''
 def rtod_converter(roman):
     roman_arr = [c for c in roman]
     for i,el in enumerate(roman_arr):

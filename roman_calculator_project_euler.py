@@ -1,3 +1,9 @@
+'''
+Arguments: str(roman that needs to be compressed or reevaluated)
+Output: str(roman)
+-sohailshaukat ( https://github.com/sohailshaukat )
+-sohail47k@gmail.com
+'''
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 def rtod_converter(roman):
     roman_arr = [c for c in roman]
@@ -84,4 +90,3 @@ while times:
     result = dtor_converter(value)
     print(result)
     times -= 1
-
